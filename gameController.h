@@ -1,7 +1,10 @@
 #ifndef GENERAL_GAME_CONTROLLER_H
 #define GENERAL_GAME_CONTROLLER_H
 
-typedef enum {
+#include <stdint.h>
+
+#define BUTTON_FLAGS uint16_t
+enum buttonFlags {
     BUTTON_none = 0,
     
     BUTTON_leftBumper = 1<<0,
@@ -23,7 +26,7 @@ typedef enum {
     BUTTON_sysStart = 1<<12,
     BUTTON_sysOption = 1<<13,
     BUTTON_sysHome = 1<<14
-} BUTTON_FLAGS;
+};
 
 typedef struct {
     // [0.0, 1.0]
