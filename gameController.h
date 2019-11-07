@@ -31,8 +31,8 @@ typedef struct {
     float rightTrigger; 
 
     // [-1.0, 1.0]
-    float leftStickX; // +: Right; -: Left
-    float leftStickY; // +: Up; -: Down
+    float leftStickX;  // +: Right; -: Left
+    float leftStickY;  // +: Up; -: Down
     float rightStickX; // +: Right; -: Left
     float rightStickY; // +: Up; -: Down
 
